@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+main(int argc, char* argv[])
+{
+	if (argc == 3)
+	{
+		printf("%s+%s=%d\n", argv[1], argv[2],
+			           atoi(argv[1]) + atoi(argv[2]));
+	}
+	else
+	{
+		printf("2‚Â‚Ìˆø”(®”)‚ğİ’è‚µ‚ÄÀs‚µ‚Ä‚­‚¾‚³‚¢\n");
+	}
+}
